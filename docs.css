@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #0000ff;
+  --primary-content: #FFFFFF;
+  --accent-color: #0BFB47;
+  --neutral-color: #e4d8d2e1;
+  --neutral-content: #929292;
+  --base-100: #ffffff;
+  --base-200: #e3e4f0;
+  --base-300: #d7d5eb;
+  --base-content: #291f1d;
+  --info-color: #0B62FA;
+  --success-color: #0BDEFB;
+  --warning-color: #00FF00;
+  --error-color: #FF0000;
+  --error-content: #FFFFFF;
+}
+
+img {
+  border: 1px solid var(--neutral-content);
+  border-radius: 5px;
+  margin: 1em 0;
+  max-width: max(100%, 300px);
+  max-height: calc(100vh - 200px);
+}
+
